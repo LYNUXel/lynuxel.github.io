@@ -1,0 +1,18 @@
+0:00:00.000,0:00:48.024
+This is the 1-st element, called "index.html", having the other 2 pages (image and advanced Search) in the right corner. The search bar is centered and rounded corners.
+
+0:00:48.024,0:02:12.008
+The button "I'm Feeling Lucky" works with redirection Google page, like we saw it.
+
+0:02:12.008,0:02:32.004
+The Image Searching, called "index_img_search.html" we can se it works, if we search Cars, which take us to the Google Image searching page, that find us all image cars.
+
+0:02:32.004,0:02:44.002
+The Advanced Search, called "index_adv_search.html" we can see all four fields.
+
+0:02:44.002,0:03:29.026
+All fields are stacked verlically and all of the text are aligned to the left side of the page. By inserting the words and clicking the "Advanced Search" button, it take's to the search results page for those given query.
+
+0:03:29.026,0:04:03.353
+The CSS file is created, to have the style that was requested and other optional style's.
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Chapter 1 - HTML/CSS - Task 1 - Google Advanced Searching -->
+
+<head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta content="dark" name="color-scheme">
+</head>
+
+<body>
+    <table>
+        <thead>
+            <div style="align-items: center;">
+                <h1>Google Advanced Search</h1>
+            </div>
+            <h4>
+                <div>
+                    <a href="index.html" target="_self"> Simple Search </a> | <a href="index_img_search.html" target="_self"> Image Search </a>
+                </div>
+            </h4>
+        </thead>
+        <tbody>
+            <div id="search2">
+                <form action="https://www.google.com/search" id="1_get" method="GET" name="f" target="_blank">
+                    <input value="en" name="h1" type="hidden">
+                    <div>
+                        <div> <span>Find pages with...</span> </div>
+                        <div>
+                            <label for="tab_1">all these words:</label>
+                        </div>
+                        <div>
+                            <input class="jfk-textinput" value="" autofocus="autofocus" id="tab_1" name="as_q" type="text">
+                        </div>
+                        <div style="float:inherit;">____________________________
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="tab_5">this exact word or phrase:</label>
+                        </div>
+                        <div>
+                            <input class="jfk-textinput" value="" id="tab_5" name="as_epq" type="text">
+                        </div>
+                        <div style="float:inherit;">____________________________
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="tabs_6">any of these words:</label>
+                        </div>
+                        <div>
+                            <input class="jfk-textinput" value="" id="tabs_6" name="as_oq" type="text">
+                        </div>
+                        <div style="float:inherit;">____________________________
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="tabs_8">none of these words:</label>
+                        </div>
+                        <div>
+                            <input value="" id="tabs_8" name="as_eq" type="text">
+                        </div>
+                    </div>
+                    <div>
+                        <div style="text-align:right"> <input id="tsf" name="tsf" type="hidden" value="" role="search">
+                            <input type="reset" value="x" style="line-height:100%;height:30px;min-width:30px; border-radius: 4px; background-color: red;">
+                            <input id="advanced_search" name="tbs" type="hidden" value="">
+                            <input style="-webkit-user-select:none;user-select:none;line-height:100%;height:30px;min-width:120px; border-radius: 4px; background-color: blue;" value="Advanced Search" type="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </tbody>
+    </table>
+</body>
+
+</html>

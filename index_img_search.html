@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+
+<!-- Chapter 1 - HTML/CSS - Task 1 - Google Searching -->
+
+<head>
+    <title>Google Image Search</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta content="dark" name="color-scheme">
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <h1>Google Image Search</h1>
+            </tr>
+            <h4>
+                <div>
+                    <a href="index.html" target="_self">Simple Search</a> | <a href="index_adv_search.html" target="_self">Advanced Search</a>
+                </div>
+            </h4>
+        </thead>
+        <tbody>
+            <div>
+                <div id="search1">
+                    <form action="https://www.google.com/search" target="_blank" method="GET" role="search">
+                        <input type="reset" value="x" style="-webkit-user-select:none;user-select:none;line-height:100%;height:30px;min-width:30px; border-radius: 4px; background-color: red;">
+                        <input type="text" name="q" style="height:25px;min-width:40%; border-radius: 4px;">
+                        <input name="hl" value="en" type="hidden">
+                        <input name="tbm" value="isch" type="hidden">
+                        <input name="source" type="hidden" value="hp">
+                        <input name="biw" type="hidden">
+                        <input name="bih" type="hidden">
+                        <input type="submit" value="Search" style="-webkit-user-select:none;user-select:none;line-height:100%;height:30px;min-width:80px; border-radius: 4px; background-color:blue">
+                    </form>
+                </div>
+                <div> </div>
+            </div>
+        </tbody>
+    </table>
+</body>
+
+</html>
